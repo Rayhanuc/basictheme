@@ -151,7 +151,6 @@ add_shortcode( 'testimonial', function (){
 <div class="contentBox">
   	<div class="innerBox">
 
-
 	<?php
 
 	$testimonial = new WP_Query(array(
@@ -178,3 +177,5 @@ add_shortcode( 'testimonial', function (){
 
 
 ?>
+
+<!-- class TF-3 done -->
